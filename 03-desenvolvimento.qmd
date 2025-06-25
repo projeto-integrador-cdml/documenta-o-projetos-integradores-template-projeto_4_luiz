@@ -1,11 +1,31 @@
 # Desenvolvimento
 
-Detalhe o processo de implementação.
+O desenvolvimento do projeto BemEstar Clinic seguiu uma abordagem incremental, priorizando a coleta e o tratamento de dados como base para a construção de análises estratégicas. A cada etapa, o foco foi garantir que os dados pudessem gerar insights aplicáveis à realidade do INASP, orientando decisões mais inteligentes para o atendimento em saúde mental.
+
+Inicialmente, foram definidos os critérios de filtragem dos dados, com destaque para os registros classificados como CID-F, que englobam transtornos mentais e comportamentais. Em seguida, os dados de internações hospitalares foram processados para permitir uma análise mensal da frequência de diagnósticos, dos custos hospitalares e do tempo médio de permanência.
+
+Durante a fase de implementação, o projeto foi estruturado para importar os dados mês a mês, realizar o pré-processamento automatizado e, com base nisso, gerar tabelas e gráficos dinâmicos que respondessem às principais perguntas do problema:
+
+Quais são os transtornos mentais mais recorrentes?
+Quais meses concentram mais casos?
+Qual o custo mensal e tempo médio de internação por CID?
+Como varia o perfil dos pacientes?
+
+Esse processo foi feito utilizando Google Colab e Python, de forma 100% reprodutível, podendo ser expandido ou automatizado para anos futuros.
 
 ## Arquitetura da Solução
 
-```{r}
-#| label: fig-arquitetura
-#| fig-cap: "Arquitetura do sistema proposto"
-knitr::include_graphics("imagens/arquitetura.png")
-```
+A arquitetura da solução proposta pode ser descrita em três camadas principais:
+Camada de Dados:
+Coleta de dados públicos em CSV dos portais OpenDataSUS, Kaggle e Basedosdados.
+Estruturação em pares mensais (CONS + DET) de janeiro a dezembro de 2022.
+
+Camada de Processamento:
+Tratamento de dados com Python (pandas, numpy) para unificação, filtragem (CID-F), correção de formatos e cálculo de indicadores.
+Geração de DataFrames por mês e totais anuais.
+
+Camada de Visualização e Análise:
+Gráficos de barras empilhadas, simples e percentuais.
+Tabelas de frequência, custo e permanência.
+Interpretação estratégica para apoio à tomada de decisão.
+
