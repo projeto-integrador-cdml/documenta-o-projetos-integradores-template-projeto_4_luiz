@@ -1,3 +1,20 @@
 # Conclusão
 
-Apresente as principais conclusões, dificuldades enfrentadas, próximos passos e sugestões.
+O projeto BemEstar Clinic demonstrou de forma clara o potencial do uso de ciência de dados na gestão estratégica da saúde mental emergencial. Por meio da coleta e análise de dados hospitalares reais, foi possível compreender padrões de internação, identificar os transtornos mais recorrentes e mapear os meses mais críticos em termos de demanda, custo e permanência hospitalar.
+A solução desenvolvida mostrou-se eficaz ao processar automaticamente os dados de 12 meses consecutivos, identificar os CIDs mais prevalentes (como F192, F200, F33, F19 e F102), e gerar insights como tempo médio de permanência de 9,4 dias e um custo anual superior a R$ 208 milhões apenas com transtornos mentais. Essas informações são extremamente valiosas para a tomada de decisões no contexto de instituições como o INASP, que atuam com atendimentos emergenciais e voluntariado em saúde psíquica.
+
+Dificuldades enfrentadas:
+Durante o desenvolvimento, algumas dificuldades técnicas e operacionais foram superadas:
+Inconsistência de formatos e codificações nos arquivos públicos (ex: vírgula como separador decimal, falta de padronização);
+Ausência de identificadores únicos entre arquivos CONS e DET, dificultando o cruzamento direto entre diagnóstico e custo individual;
+Processamento manual dos arquivos mês a mês, que poderia ser otimizado com uma API ou automação de ingestão de dados.
+
+Próximos passos:
+Para evoluir a solução, os seguintes aprimoramentos são sugeridos:
+Automatizar a coleta e integração de dados diretamente dos portais oficiais;
+Expandir a análise para outros estados ou para anos anteriores, permitindo comparações históricas;
+Incluir algoritmos de previsão (ex: regressão, redes neurais) para antecipar picos de demanda;
+Integrar a plataforma com o sistema interno do INASP para facilitar o envio de alertas operacionais em tempo real.
+
+Sugestões finais:
+O projeto mostra que é possível transformar bases públicas de saúde em inteligência prática para instituições do terceiro setor e políticas públicas. O uso de dados deve ser contínuo, ético e focado em gerar impacto social — e o BemEstar Clinic representa exatamente esse propósito: unir tecnologia, análise e cuidado com a saúde mental de forma preventiva e estratégica.
