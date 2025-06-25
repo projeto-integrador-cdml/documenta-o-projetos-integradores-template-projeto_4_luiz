@@ -1,6 +1,20 @@
 # Resultados
 
-Apresente resultados do funcionamento do sistema, testes e validações.
+Principais resultados obtidos:
+Diagnósticos mais frequentes (CID-F):
+O diagnóstico F192 (transtorno psicótico por múltiplas substâncias) liderou as internações por transtornos mentais no ano, seguido por F200 (esquizofrenia paranoide), F19 (uso de múltiplas substâncias) e F102 (dependência de álcool). Esses dados revelam forte presença de quadros relacionados ao uso de drogas e transtornos psicóticos.
+
+Internações mensais por CID-F:
+Os meses de janeiro, março e junho apresentaram os maiores volumes de internações por transtornos mentais, indicando sazonalidade possivelmente relacionada a eventos sociais ou mudanças de estação.
+
+Tempo médio de permanência hospitalar:
+A média geral foi de aproximadamente 9,4 dias por internação, o que representa uma ocupação significativa dos leitos hospitalares por pacientes com transtornos mentais, principalmente nos casos de esquizofrenia e depressão grave.
+
+Custo hospitalar total:
+O sistema calculou um custo acumulado superior a R$ 208 milhões no ano apenas com internações. O mês de janeiro se destacou com o maior custo isolado, também sendo o mês com maior percentual de internações por transtornos mentais (2,53%).
+
+Distribuição por sexo e faixa etária:
+As internações por CID-F atingem majoritariamente o sexo masculino, especialmente nas faixas entre 20 e 39 anos, indicando um perfil crítico de pacientes jovens adultos vulneráveis, especialmente expostos a dependência química e transtornos psicóticos.
 
 ```{r}
 #| label: fig-dashboard
