@@ -1,6 +1,19 @@
 # Referências
 
-As referências estão organizadas no arquivo `.bib` e serão exibidas automaticamente.
+ALMEIDA, Gustavo S.; ROCHA, Priscila M. Análise temporal de internações hospitalares por doenças cardiovasculares e sua relação com variáveis climáticas. Revista Brasileira de Epidemiologia, São Paulo, v. 25, n. 2, p. 1–12, 2022.
 
-::: {#refs}
-:::
+BRASIL. Ministério da Saúde. Departamento de Informática do SUS – DATASUS. Sistema de Informações Hospitalares do SUS (SIH/SUS). Brasília: MS, 2023. Disponível em: https://datasus.saude.gov.br. Acesso em: 05 abr. 2025.
+
+FERREIRA, Lucas A. et al. Internações hospitalares por transtornos mentais no Brasil: uma análise das bases públicas do SIH/SUS entre 2015 e 2020. Revista de Saúde Coletiva, Rio de Janeiro, v. 31, n. 1, p. 45–59, 2021.
+
+LOPES, Camila R. et al. Aplicações de ciência de dados na saúde pública: oportunidades e desafios para o SUS. Revista Ciência & Saúde Coletiva, Rio de Janeiro, v. 24, n. 11, p. 4321–4332, 2019.
+
+MORAES, Débora L.; NASCIMENTO, André P. Inteligência de dados aplicada à saúde: uma revisão de literatura. Cadernos de Gestão em Saúde, Belo Horizonte, v. 11, n. 3, p. 58–70, 2020.
+
+OLIVEIRA, Talita F.; COSTA, João A. Perfil epidemiológico das internações psiquiátricas no SUS: uma análise dos dados do SIH/SUS de 2018 a 2021. Revista Saúde Mental em Foco, Brasília, v. 9, n. 1, p. 14–28, 2022.
+
+OMS – ORGANIZAÇÃO MUNDIAL DA SAÚDE. Relatório Mundial de Saúde Mental 2022. Genebra: WHO, 2022. Disponível em: https://www.who.int/publications. Acesso em: 10 abr. 2025.
+
+SANTOS, Mariana A.; LIMA, Rodrigo B. Transtornos mentais e a sobrecarga dos sistemas de saúde pública no Brasil: uma abordagem crítica. Revista Brasileira de Políticas Públicas, Brasília, v. 13, n. 1, p. 105–123, 2020.
+
+SOUZA, Patrícia V. et al. Sazonalidade nas internações hospitalares por transtornos mentais: uma análise dos dados de 2017 a 2020. Revista de Psicologia e Saúde Pública, Recife, v. 18, n. 2, p. 210–225, 2021.

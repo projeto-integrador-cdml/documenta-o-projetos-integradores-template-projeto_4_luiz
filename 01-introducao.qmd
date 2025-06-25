@@ -1,3 +1,19 @@
 # Introdução
 
-Descreva o contexto, o problema que o projeto pretende resolver e os objetivos gerais.
+A crescente demanda por atendimentos em saúde mental no Brasil, especialmente em contextos emergenciais, tem evidenciado desafios na capacidade de resposta do sistema público de saúde. O Instituto Nacional de Apoio à Saúde Psíquica (INASP), que atua com atendimentos emergenciais e voluntariado em situações de crise, enfrenta dificuldades para alocar recursos de forma eficiente, identificar picos de demanda e garantir um acolhimento ágil e estratégico às populações em vulnerabilidade.
+
+O projeto BemEstar Clinic surge como resposta a esse cenário, propondo o uso de tecnologia e análise de dados como ferramentas centrais para melhorar a gestão de atendimentos psicológicos emergenciais. Através da coleta, tratamento e análise de bases de dados hospitalares relacionadas a transtornos mentais (CIDs do grupo F), o projeto visa oferecer suporte baseado em evidências para decisões mais rápidas e assertivas.
+
+Entre os principais problemas identificados, destaca-se a ineficiência na previsão de demanda, o gerenciamento manual da alocação de voluntários e a ausência de sistemas que integrem informações históricas com respostas operacionais. As análises realizadas revelaram, por exemplo, os diagnósticos mais recorrentes, os períodos de maior demanda, o tempo médio de internação e os custos hospitalares mensais relacionados a transtornos mentais, fornecendo uma base sólida para ações de prevenção e resposta.
+
+Assim, o objetivo geral do projeto é otimizar o atendimento em saúde mental emergencial no INASP, por meio de:
+
+  Previsão de picos de internação por transtornos mentais;
+
+  Apoio à alocação eficiente de voluntários e recursos;
+
+  Redução do tempo de resposta e sobrecarga hospitalar;
+
+  Tomada de decisão estratégica com base em dados históricos e indicadores críticos.
+
+O BemEstar Clinic representa, portanto, a aplicação prática de ciência de dados em favor da saúde pública e da dignidade humana, promovendo acolhimento mais rápido, inteligente e humano para quem mais precisa.
