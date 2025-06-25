@@ -1,11 +1,11 @@
 # Metodologia
 
-Explique como o projeto foi desenvolvido: metodologia ágil utilizada, etapas de desenvolvimento, ferramentas.
+O desenvolvimento do projeto BemEstar Clinic foi conduzido com base em princípios de metodologia ágil, especialmente inspirada no modelo Scrum, permitindo iteração rápida entre planejamento, análise e execução técnica. A divisão do trabalho em sprints facilitou a organização e a entrega de funcionalidades incrementais, como a coleta de dados, o tratamento das bases e a geração de gráficos analíticos.
+
 
 ## Tecnologias e Ferramentas
 
-- RAG com LlamaIndex e OpenAI
-- Orquestração com N8N
-- Frontend em React, Backend em FastAPI
-- Base vetorizada em FAISS
-- GitHub Actions para CI/CD
+Google Colab: desenvolvimento e execução dos códigos em Python.
+Python com pandas, matplotlib, seaborn: análise e visualização de dados.
+OpenDataSUS, Kaggle, Basedosdados.org: fontes de dados públicos.
+Word e PowerPoint: documentação e apresentação dos resultados.
